@@ -124,7 +124,7 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color:#2F303A;
-    background: url(/images/backgroundImage.jpg);
+    background: url(../images/backgroundImage.jpg);
 }
 
 .hero-title {
