@@ -106,6 +106,8 @@ body {
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: #757575;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -124,7 +126,10 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color:#2F303A;
-    background: url(../images/backgroundImage.jpg);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/backgroundImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
@@ -285,7 +290,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: #757575;
+    color: #AFB1B8;
 }
 
 .team-social-link:hover,
@@ -293,14 +298,13 @@ body {
     background-color: #2196F3;
     color: #FFFFFF;
 
-
 }
 
 .team-social-list {
     margin-top: 16px;
-    margin-left: 32px;
     margin-bottom: 30px;
     display: flex;
+    justify-content: center;
 }
 
 
@@ -344,6 +348,13 @@ body {
     fill: #757575;
     cursor: pointer;
 } */
+
+/* CUSTOMER-SECTION CLASS*/
+
+.customer-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /*FOOTER CLASS*/
 
@@ -562,7 +573,6 @@ body {
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -581,7 +591,6 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid #AFB1B8;
-    margin-bottom: 94px;
     border-radius: 4px;
     color: #AFB1B8;
 }
